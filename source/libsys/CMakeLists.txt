@@ -16,6 +16,7 @@ target_link_libraries(sys_a PUBLIC
         ${CMAKE_DL_LIBS}
         result_a
         fmt::fmt
+        stdc++fs
         spdlog::spdlog)
 
 if (ENABLE_UNIT_TESTS)
